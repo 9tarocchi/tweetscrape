@@ -1,0 +1,24 @@
+{
+  "name": "tweetscrape",
+  "version": "1.0.0",
+  "description": "twitter scraper",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "keywords": [
+    "hot",
+    "dads"
+  ],
+  "author": "seve",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "esm": "^3.2.25",
+    "package": "^1.0.1"
+  }
+}
